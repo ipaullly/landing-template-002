@@ -1,0 +1,110 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.nav-item{
+  padding-right: 30px;
+  font-size: medium;
+  text-transform: uppercase;
+}
+
+.nav-link{
+  color: black;
+  font-weight: 600;
+}
+
+.nav-link:hover{
+  color: orangered;
+}
+.Download{
+  height: 45px;
+  width: 150px;
+  outline: none;
+  border: none;
+  background: orangered;
+  border-radius: 60px;
+  color: white;
+  font-weight: bold;
+  font-size: large;
+}
+.Download:hover{
+  background: white;
+  color: orangered;
+  border: 1px solid orangered;
+  transition: 0.5s;
+}
+.Heading{
+  font-size: 3rem;
+  font-weight: 900;
+  color: rgb(43, 43, 112);
+}
+.p-head{
+  font-size: 1.3rem;
+  color: rgb(75, 61, 61);
+}
+.btn1{
+  height: 45px;
+  width: 35%;
+  border: none;
+  background: orangered;
+  border-radius: 60px;
+  color: white;
+  font-weight: bold;
+  font-size: large;
+  margin: auto;
+}
+.btn1:hover{
+  background: white;
+  color: orangered;
+  border: 1px solid orangered;
+  transition: 0.5s;
+}
+.btn2{
+  height: 45px;
+  width: 35%;
+  border: 2px solid rgb(54, 149, 204);
+  outline: none;
+  background: transparent;
+  border-radius: 60px;
+  color: rgb(54, 149, 204);
+  font-weight: bold;
+  margin: auto;
+}
+.btn2:hover{
+  color: rgb(4, 4, 70);
+  border: 0.5s;
+  border: 2px solid black;
+  transition: 0.5s;
+}
+.img-certification{
+  transform: scale(0.8);
+  margin-top: 3vh;
+}
+.span{
+  font-size: larger;
+  font-weight: 500;
+  color: grey;
+}
+
+.pera{
+  font-size: 1.1rem;
+}
+.course{
+  background-color: rgb(225, 240, 246);
+}
+.pricing .card1{
+  background: rgb(225, 240, 246);
+  box-shadow: -1px 0px 19px -6px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: -1px 0px 19px -6px rgba(0, 0, 0, 0.75);
+}
+.pricing .card:hover{
+  background: rgb(225, 240, 246);
+  box-shadow: -1px 0px 19px -6px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: -1px 0px 19px -6px rgba(0, 0, 0, 0.75);
+  transition: 0.5s;
+}
+footer{
+  background: rgb(225, 240, 246);
+}
